@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+}
+h2{
+  font-size: 4rem;
+  color: #8d4fcf;
+}
+h3{
+  font-size: 3rem;
+  color: #8d4fcf;
+}
+/*===========================================================================*/
+/*                           HEADER STYLING                                  */
+
+header{
+  display: flex;
+  align-items: center;
+  background-color: #a65eff;
+  height: 200px;
+}
+header h1{
+  margin-left: 30px;
+  font-size: 6rem;
+  color: white;
+}
+
+/*===========================================================================*/
+/*                              NAV STYLING                                  */
+
+nav{
+  display: flex;
+  height: 70px;
+  background-color: #9754e3;
+  border-bottom: 1px solid #8d4fcf;
+}
+nav ul{
+  display: flex;
+  width: 90%;
+  height: 100%;
+}
+nav li{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  list-style: none;
+  font-size: 2.4rem;
+  color: white;
+  cursor: pointer;
+}
+nav li:hover{
+  background-color: #a55cf2;
+}
+nav .icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 10%;
+  padding-right: 30px;
+}
+nav .icon-container .menu-icon{
+  font-size: 4rem;
+  color: white;
+  cursor: pointer;
+}
+nav .icon-container .menu-icon:hover{
+  background-color: #a55cf2;
+}
+
+/*===========================================================================*/
+/*                           DROPDOWN STYLING                                */
+
+.dropdown-menu{
+  padding: 10px 0 10px 0;
+  background-color: #9754e3;
+  border-bottom: 1px solid #8d4fcf;
+}
+.dropdown-menu ul{
+  display: flex;
+  flex-flow: row wrap;
+}
+.dropdown-menu li{
+  display: flex;
+  padding-left: 30px;
+  box-sizing: border-box;
+  align-items: center;
+  list-style: none;
+  font-size: 1.6rem;
+  width: 20%;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+.dropdown-menu li:hover{
+  background-color: #a65eff;
+}
+.sub-dropdown{
+  background-color: #9754e3;
+}
+.sub-dropdown ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-dropdown ul li{
+  /* flex-grow: 1; */
+  border-right: 1px solid #8d4fcf;
+  border-left: 1px solid #8d4fcf;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+.sub-dropdown ul li:hover{
+  background-color: #a65eff;
+}
+/*===========================================================================*/
+/*                             MAIN STYLING                                  */
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+section{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.img-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.sub-list-container{
+  border-right: 3px solid #8d4fcf;
+  padding: 10px;
+}
+img{
+  max-width: 100%;
+  max-height: 500px;
+  margin-top: 40px;
+  box-shadow: 0 0 10px 0 gray;
+}
+button{
+  margin: 10px 0 40px 0;
+  border: none;
+  background-color: #a65eff;
+  font-size: 2.4rem;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #9754e3;
+}
+
+/*===========================================================================*/
+/*                            FOOTER STYLING                                 */
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a65eff;
+  border-top: 1px solid #9754e3;
+  height: 100px;
+}
+footer p{
+  font-size: 2.4rem;
+  color: white;
+}
